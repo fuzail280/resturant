@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="addtocart.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <nav class="stroke">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="abot.us.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="addtocart.html">Cart</a></li>
+      </ul>
+    </nav>
+
+    <section class="h-100 h-custom" style="background-color: #41220085">
+      <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-12">
+            <div
+              class="card card-registration card-registration-2"
+              style="border-radius: 15px"
+            >
+              <div class="card-body p-0">
+                <div class="row g-0">
+                  <div class="col-lg-8">
+                    <div class="p-5">
+                      <div
+                        class="d-flex justify-content-between align-items-center mb-5"
+                      >
+                        <h1 class="fw-bold mb-0">Shopping Cart</h1>
+                        <h6 class="mb-0 text-muted">3 items</h6>
+                      </div>
+                      <hr class="my-4" />
+
+                      <div
+                        class="row mb-4 d-flex justify-content-between align-items-center"
+                      >
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                          <img
+                            src="p.png"
+                            class="img-fluid rounded-3"
+                            alt="Cotton T-shirt"
+                          />
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3">
+                          <h6 class="text-muted">Beef Birayani</h6>
+                          <h6 class="mb-0">2 Kg</h6>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                          <button
+                            data-mdb-button-init
+                            data-mdb-ripple-init
+                            class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                          >
+                            <i class="fas fa-minus"></i>
+                          </button>
+
+                          <input
+                            id="form1"
+                            min="0"
+                            name="quantity"
+                            value="1"
+                            type="number"
+                            class="form-control form-control-sm"
+                          />
+
+                          <button
+                            data-mdb-button-init
+                            data-mdb-ripple-init
+                            class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                          >
+                            <i class="fas fa-plus"></i>
+                          </button>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                          <h6 class="mb-0">PKR 44.00</h6>
+                        </div>
+                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                          <a href="#!" class="text-muted"
+                            ><i class="fas fa-times"></i
+                          ></a>
+                        </div>
+                      </div>
+
+                      <hr class="my-4" />
+
+                      <div
+                        class="row mb-4 d-flex justify-content-between align-items-center"
+                      >
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                          <img
+                            src="p.png"
+                            class="img-fluid rounded-3"
+                            alt="Cotton T-shirt"
+                          />
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3">
+                          <h6 class="text-muted">Nihari</h6>
+                          <h6 class="mb-0">Chicken Nihari</h6>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                          <button
+                            data-mdb-button-init
+                            data-mdb-ripple-init
+                            class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                          >
+                            <i class="fas fa-minus"></i>
+                          </button>
+
+                          <input
+                            id="form1"
+                            min="0"
+                            name="quantity"
+                            value="1"
+                            type="number"
+                            class="form-control form-control-sm"
+                          />
+
+                          <button
+                            data-mdb-button-init
+                            data-mdb-ripple-init
+                            class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                          >
+                            <i class="fas fa-plus"></i>
+                          </button>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                          <h6 class="mb-0">PKR 76.00</h6>
+                        </div>
+                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                          <a href="#!" class="text-muted"
+                            ><i class="fas fa-times"></i
+                          ></a>
+                        </div>
+                      </div>
+
+                      <hr class="my-4" />
+
+                      <div
+                        class="row mb-4 d-flex justify-content-between align-items-center"
+                      >
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                          <img
+                            src="p.png"
+                            class="img-fluid rounded-3"
+                            alt="Cotton T-shirt"
+                          />
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3">
+                          <h6 class="text-muted">Lazaniya</h6>
+                          <h6 class="mb-0">Chesse lazaniya</h6>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                          <button
+                            data-mdb-button-init
+                            data-mdb-ripple-init
+                            class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                          >
+                            <i class="fas fa-minus"></i>
+                          </button>
+
+                          <input
+                            id="form1"
+                            min="0"
+                            name="quantity"
+                            value="1"
+                            type="number"
+                            class="form-control form-control-sm"
+                          />
+
+                          <button
+                            data-mdb-button-init
+                            data-mdb-ripple-init
+                            class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                          >
+                            <i class="fas fa-plus"></i>
+                          </button>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                          <h6 class="mb-0">PKR 44.12</h6>
+                        </div>
+                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                          <a href="#!" class="text-muted"
+                            ><i class="fas fa-times"></i
+                          ></a>
+                        </div>
+                      </div>
+
+                      <hr class="my-4" />
+
+                      <div class="pt-5">
+                        <h6 class="mb-0">
+                          <a href="index.html" class="text-body"
+                            ><i class="fas fa-long-arrow-alt-left me-2"></i>Back
+                            to Home</a
+                          >
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 bg-body-tertiary">
+                    <div class="p-5">
+                      <h3 class="fw-bold mb-5 mt-2 pt-1">Summary</h3>
+                      <hr class="my-4" />
+
+                      <div class="d-flex justify-content-between mb-4">
+                        <h5 class="text-uppercase">items 3</h5>
+                        <h5>PKR 132.00</h5>
+                      </div>
+
+                      <h5 class="text-uppercase mb-3">Shipping</h5>
+
+                      <div class="mb-4 pb-2">
+                        <select data-mdb-select-init>
+                          <option value="1">Standard-Delivery- PKR5.00</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                          <option value="4">Four</option>
+                        </select>
+                      </div>
+
+                      <h5 class="text-uppercase mb-3">Give code</h5>
+
+                      <div class="mb-5">
+                        <div data-mdb-input-init class="form-outline">
+                          <input
+                            type="text"
+                            id="form3Examplea2"
+                            class="form-control form-control-lg"
+                          />
+                          <label class="form-label" for="form3Examplea2"
+                            >Enter your code</label
+                          >
+                        </div>
+                      </div>
+
+                      <hr class="my-4" />
+
+                      <div class="d-flex justify-content-between mb-5">
+                        <h5 class="text-uppercase">Total price</h5>
+                        <h5>PKR 137.00</h5>
+                      </div>
+
+                      <button
+                        type="button"
+                        data-mdb-button-init
+                        data-mdb-ripple-init
+                        class="btn btn-dark btn-block btn-lg"
+                        data-mdb-ripple-color="dark"
+                      >
+                        Register
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class = "contact-footer">
+      <h3>Follow Us</h3>
+      <div class = "social-links">
+        <a href = "https://www.facebook.com/?ref=homescreenpwa" class = "fab fa-facebook-f"></a>
+        <a href = "https://www.snapchat.com/add/fuzail5206?share_id=eSrEqtwjhwI&locale=en-NZ" class = "fab fa-snapchat"></a>
+        <a href = "https://www.instagram.com/fuzail._28/?igsh=MTNmZDIxemltaXdy" class = "fab fa-instagram"></a>
+        <a href = "#" class = "fab fa-linkedin"></a>
+        <a href = "https://github.com/fuzail280" class = "fab fa-github"></a>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

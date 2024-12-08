@@ -1,0 +1,50 @@
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+    
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+
+    .contact-footer {
+        box-shadow: 0 0 5px gray;
+        padding: 2rem 0;
+        background: #ffffff;
+      }
+      .contact-footer h3 {
+        font-size: 1.3rem;
+        color: #412200;
+        margin-bottom: 1rem;
+        text-align: center;
+      }
+      .social-links {
+        display: flex;
+        justify-content: center;
+      }
+      .social-links a {
+        text-decoration: none;
+        width: 40px;
+        height: 40px;
+        color: #412200;
+        border: 2px solid #412200;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0.4rem;
+        transition: all 0.4s ease;
+      }
+      .social-links a:hover {
+        color: #ffffff;
+        border-color: #412200;
+        background-color: #412200;
+      }
